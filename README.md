@@ -1,3 +1,6 @@
+####Note!
+In order to run in c9 just run it, does not require any modification in the server.js file.
+
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
