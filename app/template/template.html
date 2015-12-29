@@ -1,1 +1,9 @@
-<p>This is the partial for the template</p>
+<div class="row template">
+    <div class="col-md-4" ng-repeat="template in templates">
+        <img src="{{template.image}}">
+        <h3>{{template.name}}</h3>
+        <p>{{template.price|currency}}</p>
+        <a href="#/template-detail/{{template.id}}" class="btn btn-default btn-block" href="">Detail</a>
+    </div>
+        
+</div>
